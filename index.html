@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" name="calc">
+        <div id="calculadora">
+            
+            <input type="text" name="result" id="result">
+           
+            <div class="line1">
+                <input type="button" class="botao borda" value="7" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="8" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="9" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="/" onclick="botao(value)" />
+            </div>
+            <div class="line2">
+                <input type="button" class="botao borda" value="4" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="5" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="6" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="*" onclick="botao(value)" />
+            </div>
+            <div class="line3">
+                <input type="button" class="botao borda" value="1" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="2" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="3" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="-" onclick="botao(value)" />
+            </div>
+            <div class="line4">
+                <input type="button" class="botao borda" value="C" onclick="resetar()" />
+                <input type="button" class="botao borda" value="0" onclick="botao(value)" />
+                <input type="button" class="botao borda" value="=" onclick="calcula()" />
+                <input type="button" class="botao borda" value="+" onclick="botao(value)" />
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
